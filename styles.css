@@ -1,0 +1,56 @@
+body {
+    background-color: lavender; /* Background color as lilac */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Start from top instead of full vertical centering */
+    min-height: 100vh; /* So content is scrollable if needed */
+}
+
+.container {
+    text-align: center;
+    padding-top: 40px; /* Adds space at the top of the page */
+    max-width: 90%;
+}
+
+h1 {
+    color: purple;
+    text-align: center;
+}
+
+h2 {
+    color: magenta;
+    text-align: center;
+    margin-top: 40px;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+img.photo {
+    max-width: 90%;
+    height: auto;
+    border-radius: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: plum;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: mediumorchid;
+}
